@@ -2,7 +2,8 @@ import { getAllPosts, getPostBySlug } from "../../../lib/posts";
 import Navigation from "../../components/Navigation";
 
 export default async function PostPage({ params }) {
-  const post = await getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = await getPostBySlug(slug);
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-pink-50 via-green-50 to-pink-100">
