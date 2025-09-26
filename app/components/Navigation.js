@@ -22,7 +22,7 @@ export default function Navigation() {
                 color: 'rgb(120, 100, 120)'
               }}
             >
-              Sofi's Blog
+              Sofi&apos;s Blog
             </span>
           </Link>
           <div className="flex space-x-8">

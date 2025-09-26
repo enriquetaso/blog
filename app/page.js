@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold mb-6" style={{ 
             color: 'rgb(120,100,120)', 
             fontFamily: 'var(--font-mochiy-pop-one), cursive'
-          }}>Sofi's Blog</h1>
+          }}>Sofi&apos;s Blog</h1>
         </div>
 
         {/* Navigation Menu */}

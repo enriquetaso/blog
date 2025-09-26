@@ -15,7 +15,7 @@ export default function Contact() {
             <div>
               <h2 className="text-2xl font-semibold text-gray-800 mb-6">Get in Touch</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                I'd love to hear from you! Whether you have a question about one of my posts, 
+                I&apos;d love to hear from you! Whether you have a question about one of my posts, 
                 want to collaborate on a project, or just want to say hello, feel free to reach out.
               </p>
               

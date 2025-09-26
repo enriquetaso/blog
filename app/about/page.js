@@ -13,14 +13,14 @@ export default function About() {
           
           <div className="prose prose-lg max-w-none">
             <div className="mb-8">
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Hello, I'm a Developer</h2>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Hello, I&apos;m a Developer</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Welcome to my corner of the internet! I'm passionate about technology, 
+                Welcome to my corner of the internet! I&apos;m passionate about technology, 
                 web development, and sharing knowledge with the community. Through this blog, 
                 I aim to document my learning journey and help others along the way.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, 
+                When I&apos;m not coding, you can find me exploring new technologies, 
                 contributing to open source projects, or enjoying a good cup of coffee 
                 while reading about the latest trends in software development.
               </p>
