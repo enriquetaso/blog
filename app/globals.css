@@ -24,3 +24,160 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Force prose headings to be grey */
+.prose h1 {
+  color: #2c313a !important;
+  font-family: var(--font-mochiy-pop-one), cursive;
+  font-size: 1.875rem !important;
+  font-weight: 700 !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.prose h2 {
+  color: #2c313a !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.prose h3 {
+  color: #2c313a !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin-top: 1.25rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.prose h4 {
+  color:  #2c313a !important;
+  font-size: 1.125rem !important;
+  font-weight: 700 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Code block styling */
+.prose pre {
+  background-color: #f8f9fa !important;
+  border: 1px solid #e9ecef !important;
+  border-radius: 0.5rem !important;
+  padding: 1.5rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  overflow-x: auto !important;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+}
+
+/* Preserve original markdown spacing */
+.prose p {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+.prose p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* List styling */
+.prose ul {
+  list-style-type: disc !important;
+  margin-left: 1.5rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+.prose ul li {
+  margin-bottom: 0.5rem !important;
+  color: #4a5568 !important;
+}
+
+.prose ul li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.prose ol {
+  list-style-type: decimal !important;
+  margin-left: 1.5rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+.prose ol li {
+  margin-bottom: 0.5rem !important;
+  color: #4a5568 !important;
+}
+
+.prose ol li:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Nested lists */
+.prose ul ul {
+  list-style-type: circle !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0 !important;
+}
+
+.prose ul ul ul {
+  list-style-type: square !important;
+}
+
+.prose pre code {
+  background: none !important;
+  padding: 0 !important;
+  color: #2d3748 !important;
+  font-size: inherit !important;
+}
+
+/* Python syntax highlighting */
+.prose pre .language-python {
+  color: #2d3748 !important;
+}
+
+/* Keyword highlighting */
+.prose pre .token.keyword {
+  color: #805ad5 !important;
+  font-weight: 600 !important;
+}
+
+.prose pre .token.string {
+  color: #38a169 !important;
+}
+
+.prose pre .token.comment {
+  color: #718096 !important;
+  font-style: italic !important;
+}
+
+.prose pre .token.function {
+  color: #3182ce !important;
+  font-weight: 600 !important;
+}
+
+.prose pre .token.class-name {
+  color: #d69e2e !important;
+  font-weight: 600 !important;
+}
+
+.prose pre .token.number {
+  color: #e53e3e !important;
+}
+
+.prose pre .token.operator {
+  color: #805ad5 !important;
+}
+
+/* Inline code styling */
+.prose code:not(pre code) {
+  background-color: #fef5e7 !important;
+  color: #d69e2e !important;
+  padding: 0.25rem 0.5rem !important;
+  border-radius: 0.25rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+}
