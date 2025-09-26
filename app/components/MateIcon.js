@@ -6,7 +6,9 @@ import { useState } from "react";
 export default function MateIcon({ width = 32, height = 32, className = "" }) {
   const [imageError, setImageError] = useState(false);
 
-  if (imageError) {
+  // Always show fallback for now to avoid loading issues
+  // You can change this to false once the image is confirmed working
+  if (imageError || true) {
     // Fallback: Show a text-based icon
     return (
       <div 
