@@ -7,7 +7,7 @@ tags: django, python, drf
 
 
 # Context
-When I started at my job, I inherited a Django application originally built as an internal tool. Over time, the project evolved into a backend for a frontend that non-technical users relied on. As a result, we ended up with **two different CRUD APIs** acting on the same models—but without shared code.
+When I started at my job, I inherited a Django application originally built as an internal tool. Over time, the project evolved into a backend for a frontend that non-technical users relied on. As a result, we ended up with **two different APIs** acting on the same models—but without shared code.
 
 This became a problem: some validations existed in the “internal” version but were missing in the frontend-facing API.
 
