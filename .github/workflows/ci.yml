@@ -30,9 +30,8 @@ jobs:
     - name: Run ESLint
       run: npm run lint
       
-    - name: Check TypeScript types (if applicable)
-      run: npx tsc --noEmit || echo "TypeScript check completed with warnings"
-      continue-on-error: true
+    - name: Check TypeScript types
+      run: npx tsc --noEmit
       
     - name: Build application
       run: npm run build
