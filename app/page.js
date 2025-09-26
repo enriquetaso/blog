@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import MateIcon from "./components/MateIcon";
 
 export default function Home() {
   return (
@@ -8,13 +8,10 @@ export default function Home() {
         {/* Mate Icon */}
         <div className="mb-6">
           <div className="w-48 h-48 mx-auto mb-0">
-            <Image
-              src="/mate_icon.png"
-              alt="Mate Icon"
-              width={192}
-              height={192}
-              className="w-full h-full object-contain"
-              priority
+            <MateIcon 
+              width={192} 
+              height={192} 
+              className="w-full h-full object-contain" 
             />
           </div>
           <h1 className="text-4xl font-bold mb-6" style={{ 

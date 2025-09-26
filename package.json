@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "type-check": "tsc --noEmit",
+    "audit": "npm audit --audit-level=moderate",
+    "audit:fix": "npm audit fix"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
@@ -21,6 +25,7 @@
     "@tailwindcss/postcss": "^4",
     "@types/node": "24.5.2",
     "@types/react": "19.1.13",
+    "audit-ci": "^7.0.1",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "tailwindcss": "^4"

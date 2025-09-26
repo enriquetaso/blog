@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import MateIcon from "./MateIcon";
 
 export default function Navigation() {
   return (
@@ -7,13 +7,10 @@ export default function Navigation() {
       <div className="max-w-4xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-200">
-            <Image
-              src="/mate_icon.png"
-              alt="Mate Icon"
-              width={32}
-              height={32}
-              className="w-8 h-8 object-contain"
-              priority
+            <MateIcon 
+              width={32} 
+              height={32} 
+              className="w-8 h-8 object-contain" 
             />
             <span 
               className="text-2xl font-bold"
