@@ -1,5 +1,6 @@
 import { getAllPosts, getPostBySlug } from "../../../lib/posts";
 import Navigation from "../../components/Navigation";
+import MermaidRenderer from "../../components/MermaidRenderer";
 
 export default async function PostPage({ params }) {
   const { slug } = await params;
@@ -8,6 +9,7 @@ export default async function PostPage({ params }) {
   return (
     <main className="min-h-screen bg-gradient-to-br from-pink-50 via-green-50 to-pink-100">
       <Navigation />
+      <MermaidRenderer />
       <div className="max-w-4xl mx-auto px-6 py-16">
         <article className="bg-white/80 backdrop-blur-sm rounded-lg shadow-sm p-8 border border-pink-200">
             <time className="text-gray-800 text-sm font-medium mb-6 px-4 py-2 text-right block" style={{ 
