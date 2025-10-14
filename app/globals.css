@@ -181,3 +181,19 @@ body {
   font-size: 0.875rem !important;
   font-weight: 500 !important;
 }
+
+/* Mermaid diagram styling */
+.prose .mermaid {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 2rem 0 !important;
+  background-color: white !important;
+  padding: 1.5rem !important;
+  border-radius: 0.5rem !important;
+  border: 1px solid #fce7f3 !important;
+}
+
+.prose .mermaid svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
